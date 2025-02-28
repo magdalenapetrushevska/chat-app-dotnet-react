@@ -20,18 +20,13 @@ function App() {
       // Set up handler for JoinSpecificChatRoom response
       newConnection.on("JoinSpecificChatRoom", (username, msg) => {
         console.log("JoinSpecificChatRoom msg: ", msg);
+        setMessages((messages) => [...messages, { username, msg }]);
       });
 
       // Set up handler for JoinSpecificChatRoom response
       newConnection.on("ReceieveSpecificMessage", (username, msg) => {
         console.log("ReceieveSpecificMessage msg: ", msg);
-        setMessages((messages) => [...messages, { username, message }]);
-      });
-
-      // Add handler for receivemessage event
-      newConnection.on("receivemessage", (user, message) => {
-        console.log(`${user}: ${message}`);
-        setMessages((messages) => [...messages, { user, message }]);
+        setMessages((messages) => [...messages, { username, msg }]);
       });
 
       await newConnection.start();

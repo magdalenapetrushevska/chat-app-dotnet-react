@@ -40,3 +40,4 @@ C:\Users\magda\source\repos\chat-app-dotnet-react\backend\obj\Debug\net8.0\refin
 C:\Users\magda\source\repos\chat-app-dotnet-react\backend\obj\Debug\net8.0\backend.pdb
 C:\Users\magda\source\repos\chat-app-dotnet-react\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\Users\magda\source\repos\chat-app-dotnet-react\backend\obj\Debug\net8.0\ref\backend.dll
+C:\Users\magda\source\repos\chat-app-dotnet-react\backend\obj\Debug\net8.0\backend.sourcelink.json

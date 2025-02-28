@@ -38,8 +38,7 @@
               "RelativeToolTip": "backend\\DataService\\InMemoryDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T17:08:04.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T17:08:04.43Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "backend\\Program.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAowBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T11:53:53.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T11:53:53.079Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "backend\\Hubs\\ChatHub.cs",
               "ToolTip": "C:\\Users\\magda\\source\\repos\\chat-app-dotnet-react\\backend\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "backend\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T11:38:17.887Z",
               "EditorCaption": ""
@@ -77,8 +75,7 @@
               "RelativeToolTip": "backend\\Models\\UserConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T11:36:21.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T11:36:21.808Z"
             }
           ]
         }
