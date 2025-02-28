@@ -24,8 +24,8 @@ function App() {
       });
 
       // Set up handler for JoinSpecificChatRoom response
-      newConnection.on("ReceieveSpecificMessage", (username, msg) => {
-        console.log("ReceieveSpecificMessage msg: ", msg);
+      newConnection.on("ReceiveSpecificMessage", (username, msg) => {
+        console.log("ReceiveSpecificMessage msg: ", msg);
         setMessages((messages) => [...messages, { username, msg }]);
       });
 
@@ -36,6 +36,14 @@ function App() {
       });
 
       setConnection(newConnection);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  const sendMessage = async (message) => {
+    try {
+      await connection.invoke("SendMessage", message);
     } catch (e) {
       console.log(e);
     }
@@ -53,7 +61,7 @@ function App() {
           {!connection ? (
             <WaitingRoom joinChatRoom={joinChatRoom} />
           ) : (
-            <ChatRoom messages={messages}></ChatRoom>
+            <ChatRoom messages={messages} sendMessage={sendMessage}></ChatRoom>
           )}
         </Container>
       </main>
