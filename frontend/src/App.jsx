@@ -4,6 +4,8 @@ import WaitingRoom from "./components/WaitingRoom";
 import { HubConnectionBuilder, LogLevel } from "@microsoft/signalr";
 import { useState } from "react";
 import ChatRoom from "./components/ChatRoom";
+import './App.css';
+
 
 function App() {
   const [connection, setConnection] = useState();
